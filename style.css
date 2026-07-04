@@ -36,4 +36,26 @@ header{
 .hero p{
     color:#ccc;
     font-size:14px;
+}.buttons{
+    margin-top:20px;
+}
+
+.btn,
+.btn2{
+    display:inline-block;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:30px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.btn{
+    background:#28a8ff;
+    color:white;
+}
+
+.btn2{
+    border:1px solid #28a8ff;
+    color:#28a8ff;
 }
