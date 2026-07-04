@@ -268,11 +268,13 @@ header{
     text-align:center;
     color:white;
 }
-
 .close{
     float:right;
     font-size:30px;
-    cursor:pointer;/* ===== STATS ===== */
+    cursor:pointer;
+}
+
+/* ===== STATS ===== */
 
 .stats{
     display:grid;
