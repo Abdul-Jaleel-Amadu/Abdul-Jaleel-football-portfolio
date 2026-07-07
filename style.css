@@ -137,4 +137,23 @@ header{
     height:100%;
     background:#28a8ff;
     border-radius:20px;
+    }.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.gallery-img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(40,168,255,.4);
     }
