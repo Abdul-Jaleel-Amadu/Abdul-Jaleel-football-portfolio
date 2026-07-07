@@ -169,4 +169,24 @@ counters.forEach(counter => {
 
     updateCounter();
 
-});
+});// ===== IMAGE POPUP =====
+
+function openImage(image){
+
+    let viewer = document.getElementById("imageViewer");
+    let viewerImage = document.getElementById("viewerImage");
+
+    viewer.style.display = "flex";
+
+    viewerImage.src = image.src;
+
+}
+
+
+let closeViewer = document.querySelector(".close-viewer");
+
+closeViewer.onclick = function(){
+
+    document.getElementById("imageViewer").style.display = "none";
+
+};
