@@ -89,4 +89,17 @@ header{
     margin:8px 0;
     font-size:17px;
     line-height:1.6;
+    }.profile-card{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    max-width:1000px;
+    margin:50px auto;
+    padding:30px;
+    background:#111;
+    border:2px solid #28a8ff;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(40,168,255,0.25);
     }
