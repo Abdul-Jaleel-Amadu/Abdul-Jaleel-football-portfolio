@@ -58,4 +58,9 @@ header{
 .btn2{
     border:1px solid #28a8ff;
     color:#28a8ff;
+}.profile-card{
+    background:#111;
+    border-radius:15px;
+    padding:20px;
+    margin:30px auto;
 }
