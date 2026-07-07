@@ -613,4 +613,36 @@ section{
 .achievement-card p{
     color:#ddd;
     line-height:1.7;
+}/* ===== FOOTBALL CV ===== */
+
+.cv-card{
+    max-width:700px;
+    margin:40px auto;
+    background:#111;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    border:2px solid #28a8ff;
+}
+
+.cv-card p{
+    color:#ddd;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.cv-btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#28a8ff;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.cv-btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px rgba(40,168,255,.5);
 }
