@@ -525,4 +525,10 @@ section{
     background:#28a8ff;
     color:white;
     transform:translateY(-5px);
-    }
+    }.motto{
+    margin-top:25px;
+    color:#28a8ff;
+    font-size:22px;
+    font-style:italic;
+    font-weight:600;
+}
