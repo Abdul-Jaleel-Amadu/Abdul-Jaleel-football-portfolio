@@ -86,4 +86,26 @@ function scrollToTop(){
         top:0,
         behavior:"smooth"
     });
-}
+}const galleryImages = document.querySelectorAll(".gallery-img");
+const imageModal = document.getElementById("imageModal");
+const popupImage = document.getElementById("popupImage");
+const closeImage = document.querySelector(".close-image");
+
+
+galleryImages.forEach(image => {
+
+    image.onclick = function(){
+
+        imageModal.style.display="flex";
+        popupImage.src=this.src;
+
+    }
+
+});
+
+
+closeImage.onclick=function(){
+
+    imageModal.style.display="none";
+
+};
