@@ -531,4 +531,23 @@ section{
     font-size:22px;
     font-style:italic;
     font-weight:600;
+}/* ===== PREMIUM PLAYER STATS ===== */
+
+.stat-box{
+    background:#111;
+    border:2px solid #28a8ff;
+    border-radius:20px;
+    padding:35px;
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(40,168,255,.4);
+}
+
+.counter{
+    font-size:48px;
+    color:#28a8ff;
+    font-weight:800;
 }
