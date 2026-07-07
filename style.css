@@ -328,3 +328,93 @@ section{
     box-shadow:0 0 20px #28a8ff;
 
     }
+/* ===== PROFESSIONAL FOOTER ===== */
+
+.footer{
+    background:#050505;
+    padding:70px 20px;
+    text-align:center;
+    margin-top:80px;
+}
+
+
+.footer h2{
+    color:#28a8ff;
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+
+.footer p{
+    color:#ccc;
+    line-height:1.7;
+}
+
+
+.footer-socials,
+.footer-links{
+    margin:30px 0;
+}
+
+
+.footer-socials a,
+.footer-links a{
+
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    padding:12px 20px;
+    border-radius:30px;
+    background:#111;
+    transition:.3s;
+
+}
+
+
+.footer-socials a:hover,
+.footer-links a:hover{
+
+    background:#28a8ff;
+    transform:translateY(-5px);
+
+}
+
+
+.copyright{
+    margin-top:30px;
+    font-size:14px;
+}
+
+
+/* Floating back button */
+
+.top-btn{
+
+    position:fixed;
+    right:25px;
+    bottom:25px;
+
+    width:55px;
+    height:55px;
+
+    border-radius:50%;
+    border:none;
+
+    background:#28a8ff;
+    color:white;
+
+    font-size:22px;
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+.top-btn:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #28a8ff;
+
+}
