@@ -428,4 +428,29 @@ section{
 .show{
     opacity:1;
     transform:translateY(0);
+}/* ===== MY JOURNEY ===== */
+
+.journey-card{
+    max-width:900px;
+    margin:30px auto;
+    background:#111;
+    padding:30px;
+    border-left:5px solid #28a8ff;
+    border-radius:15px;
+    transition:.3s;
 }
+
+.journey-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(40,168,255,.3);
+}
+
+.journey-card h3{
+    color:#28a8ff;
+    margin-bottom:15px;
+}
+
+.journey-card p{
+    color:#ddd;
+    line-height:1.8;
+    }
