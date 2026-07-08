@@ -1259,4 +1259,35 @@ background-position:0% 50%;
 
 }
 
-    }
+    }/* ===== PROFESSIONAL SPACING ===== */
+
+.section{
+
+    padding:120px 25px;
+
+}
+
+.section h2{
+
+    margin-bottom:35px;
+
+}
+
+.section p{
+
+    margin-bottom:20px;
+
+    line-height:1.9;
+
+}
+
+.profile-card,
+.story-box,
+.highlight-card,
+.timeline-item,
+.stat-box,
+.contact-form{
+
+    margin-top:40px;
+
+}
