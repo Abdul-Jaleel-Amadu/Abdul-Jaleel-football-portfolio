@@ -22,9 +22,39 @@ header{
     background:#000;
 }
 .hero h1{
-    font-size:40px;
-    color:white;
-    margin-bottom:10px;
+
+    font-size:64px;
+    font-weight:800;
+
+    color:#ffffff;
+
+    text-shadow:
+        0 0 10px #28a8ff,
+        0 0 20px #28a8ff,
+        0 0 40px #28a8ff;
+
+    animation:nameGlow 2.5s ease-in-out infinite alternate;
+
+}@keyframes nameGlow{
+
+    from{
+
+        text-shadow:
+        0 0 10px #28a8ff,
+        0 0 20px #28a8ff;
+
+    }
+
+    to{
+
+        text-shadow:
+        0 0 20px #28a8ff,
+        0 0 40px #28a8ff,
+        0 0 60px #28a8ff;
+
+    }
+
+}
 }
 
 .hero h2{
