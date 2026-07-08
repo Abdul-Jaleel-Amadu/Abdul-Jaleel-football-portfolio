@@ -220,4 +220,13 @@ entry.target.classList.add("show");
 });
 
 
-hiddenElements.forEach((el)=>observer.observe(el));
+hiddenElements.forEach((el)=>observer.observe(el));// ===== BACK TO TOP =====
+
+function scrollToTop(){
+
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+
+    }
