@@ -1312,4 +1312,12 @@ background-position:0% 50%;
 
     transform:translateY(-8px);
 
+}.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#28a8ff;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
 }
