@@ -878,3 +878,28 @@ section{
     max-width:900px;
     font-style:italic;
 }
+/* ===== PLAYER INFO BOXES ===== */
+
+.player-info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+    margin-top:25px;
+}
+
+.info-box{
+    background:#1a1a1a;
+    border:1px solid #28a8ff;
+    border-radius:12px;
+    padding:15px;
+    color:#fff;
+    text-align:center;
+    font-weight:600;
+    transition:.3s;
+}
+
+.info-box:hover{
+    background:#28a8ff;
+    color:#000;
+    transform:translateY(-5px);
+}
