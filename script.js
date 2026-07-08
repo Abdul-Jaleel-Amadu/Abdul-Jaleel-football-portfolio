@@ -189,4 +189,14 @@ closeViewer.onclick = function(){
 
     document.getElementById("imageViewer").style.display = "none";
 
+};// ===== MOBILE MENU =====
+
+const menuBtn = document.querySelector(".menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+
+menuBtn.onclick = () => {
+
+    navLinks.classList.toggle("active");
+
 };
