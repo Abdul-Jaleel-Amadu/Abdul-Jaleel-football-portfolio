@@ -1138,4 +1138,55 @@ section{
     transform:scale(1.05);
     background:white;
 
+}/* ===== MOBILE MENU ===== */
+
+.menu-btn{
+
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+    color:#28a8ff;
+
+}
+
+
+@media(max-width:768px){
+
+.menu-btn{
+
+    display:block;
+
+}
+
+
+.nav-links{
+
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+
+    background:#050505;
+
+    flex-direction:column;
+    text-align:center;
+
+    display:none;
+
+}
+
+
+.nav-links li{
+
+    margin:20px 0;
+
+}
+
+
+.nav-links.active{
+
+    display:flex;
+
+}
+
 }
