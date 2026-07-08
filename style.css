@@ -826,3 +826,12 @@ section{
     }
 
         }
+.hero-quote{
+    text-align:center;
+    font-size:38px;
+    font-weight:700;
+    color:#28a8ff;
+    margin:80px auto;
+    max-width:900px;
+    font-style:italic;
+}
