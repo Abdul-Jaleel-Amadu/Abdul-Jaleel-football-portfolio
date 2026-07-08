@@ -78,7 +78,7 @@ header{
     border-radius:30px;
     text-decoration:none;
     font-size:14px;
-}
+transition:0.35s ease;}
 
 .btn{
     background:#28a8ff;
@@ -87,7 +87,12 @@ header{
 
 .btn2{
     border:1px solid #28a8ff;
-    color:#28a8ff;
+    color:#28a8ff;.btn:hover,
+.btn2:hover{
+
+    transform:translateY(-5px) scale(1.05);
+
+}
 }/* ===== PLAYER PROFILE ===== */
 
 .profile-card{
@@ -1289,5 +1294,22 @@ background-position:0% 50%;
 .contact-form{
 
     margin-top:40px;
+
+}.card,
+.stat-box,
+.timeline-item,
+.highlight-card,
+.profile-card{
+
+    transition:.35s ease;
+
+}
+
+.card:hover,
+.stat-box:hover,
+.timeline-item:hover,
+.highlight-card:hover{
+
+    transform:translateY(-8px);
 
 }
